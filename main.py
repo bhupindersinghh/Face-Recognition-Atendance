@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 # from PIL import ImageGrab
  
-path = 'D:\Aditya\Documents\codes\Project\ImagesAttendance'
+path = 'D:\Bhupinder\Documents\codes\Project\ImagesAttendance'
 
 images = []
 classNames = []
@@ -75,3 +75,4 @@ while True:
  
     cv2.imshow('Webcam',img)
     cv2.waitKey(1)
+    
